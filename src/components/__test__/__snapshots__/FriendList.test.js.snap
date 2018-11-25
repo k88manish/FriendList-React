@@ -1,0 +1,158 @@
+exports[`FriendList Test Suits it should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FriendList
+    actions={
+        Object {
+            "starFriend": [Function],
+          }
+    }
+    friends={
+        Array [
+            Object {
+              "gender": "Male",
+              "id": 1,
+              "name": "manish",
+            },
+            Object {
+              "gender": "Female",
+              "id": 2,
+              "name": "mark",
+            },
+          ]
+    } />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <FriendListItem
+          gender="Male"
+          id={1}
+          name="manish"
+          starFriend={[Function]}
+          starred={undefined} />,
+        <FriendListItem
+          gender="Female"
+          id={2}
+          name="mark"
+          starFriend={[Function]}
+          starred={undefined} />,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "gender": "Male",
+          "id": 1,
+          "name": "manish",
+          "starFriend": [Function],
+          "starred": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "gender": "Female",
+          "id": 2,
+          "name": "mark",
+          "starFriend": [Function],
+          "starred": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <FriendListItem
+            gender="Male"
+            id={1}
+            name="manish"
+            starFriend={[Function]}
+            starred={undefined} />,
+          <FriendListItem
+            gender="Female"
+            id={2}
+            name="mark"
+            starFriend={[Function]}
+            starred={undefined} />,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "gender": "Male",
+            "id": 1,
+            "name": "manish",
+            "starFriend": [Function],
+            "starred": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "gender": "Female",
+            "id": 2,
+            "name": "mark",
+            "starFriend": [Function],
+            "starred": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;

@@ -1,6 +1,19 @@
 :local(.addFriendInput) {
   border-radius: 0;
-  border-color: #ABAAAA;
+  border-color: #abaaaa;
   border-left: 0;
   border-right: 0;
+}
+
+:local(.inputContainer) {
+  display: flex;
+  flex-direction: row;
+}
+
+:local(.selectInput) {
+  border-radius: 0;
+  border-color: #abaaaa;
+  border-left: 0;
+  border-right: 0;
+  width: 45%;
 }

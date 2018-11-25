@@ -1,0 +1,32 @@
+:local(.paginationBar) {
+  display: flex;
+  height: 35px;
+  color: #fff;
+}
+
+:local(.listStyle) {
+  list-style: none;
+  margin: auto;
+  padding: 0 0 0 0;
+}
+
+:local(.listStyle) li {
+  display: inline-block;
+  padding: 2px 4px;
+  margin: 5px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+:local(.listStyle) li:hover {
+  background: #f0f0f0;
+  border: 1px solid #5c75b0;
+  color: #5c75b0;
+}
+
+:local(.listStyle) :local(.active) {
+  background: #f0f0f0;
+  border: 1px solid #5c75b0;
+  color: #5c75b0;
+}

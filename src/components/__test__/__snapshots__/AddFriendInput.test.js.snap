@@ -1,0 +1,228 @@
+exports[`Add Input Test Suits it should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddFriendInput
+    addFriend={[Function]} />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <select
+          className="form-control"
+          onChange={[Function]}>
+          <option
+                    value="Male">
+                    Male
+          </option>
+          <option
+                    value="Female">
+                    Female
+          </option>
+</select>,
+        <input
+          autoFocus="true"
+          className="form-control"
+          name="name"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Type the name of a friend"
+          type="text"
+          value="" />,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <option
+              value="Male">
+              Male
+</option>,
+            <option
+              value="Female">
+              Female
+</option>,
+          ],
+          "className": "form-control",
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Male",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Male",
+              "value": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "Female",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Female",
+              "value": "Female",
+            },
+            "ref": null,
+            "rendered": "Female",
+            "type": "option",
+          },
+        ],
+        "type": "select",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoFocus": "true",
+          "className": "form-control",
+          "name": "name",
+          "onChange": [Function],
+          "onKeyDown": [Function],
+          "placeholder": "Type the name of a friend",
+          "type": "text",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <select
+            className="form-control"
+            onChange={[Function]}>
+            <option
+                        value="Male">
+                        Male
+            </option>
+            <option
+                        value="Female">
+                        Female
+            </option>
+</select>,
+          <input
+            autoFocus="true"
+            className="form-control"
+            name="name"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Type the name of a friend"
+            type="text"
+            value="" />,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <option
+                value="Male">
+                Male
+</option>,
+              <option
+                value="Female">
+                Female
+</option>,
+            ],
+            "className": "form-control",
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Male",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Male",
+                "value": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "Female",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Female",
+                "value": "Female",
+              },
+              "ref": null,
+              "rendered": "Female",
+              "type": "option",
+            },
+          ],
+          "type": "select",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoFocus": "true",
+            "className": "form-control",
+            "name": "name",
+            "onChange": [Function],
+            "onKeyDown": [Function],
+            "placeholder": "Type the name of a friend",
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
